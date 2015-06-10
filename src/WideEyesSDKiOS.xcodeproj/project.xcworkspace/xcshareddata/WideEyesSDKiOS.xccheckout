@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6D7936EA-8EBF-4656-ADBC-561BFF75EAE5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WideEyesSDKiOS</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9001A8BCB2D8D33F479C3CDF9522B4B17D9CBF9E</key>
+		<string>https://bitbucket.org/atraura-team/wideeyessdkios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WideEyesSDKiOS.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9001A8BCB2D8D33F479C3CDF9522B4B17D9CBF9E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/atraura-team/wideeyessdkios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9001A8BCB2D8D33F479C3CDF9522B4B17D9CBF9E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9001A8BCB2D8D33F479C3CDF9522B4B17D9CBF9E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WideEyesSDKiOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

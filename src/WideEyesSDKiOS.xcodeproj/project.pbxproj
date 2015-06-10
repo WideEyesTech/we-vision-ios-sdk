@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		9A438A0D1B131FDC00EEB76C /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9A438A0E1B131FDC00EEB76C /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				9A438A131B131FFB00EEB76C /* ShellScript */,
+			);
+			dependencies = (
+				9A438A121B131FE800EEB76C /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		9A438A061B131F5500EEB76C /* WEVision.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF5B10C1B0BCC0500AC3AA4 /* WEVision.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A438A071B131F5500EEB76C /* WEResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF5B10F1B0BD61C00AC3AA4 /* WEResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A438A091B131F5500EEB76C /* WEInitialize.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A9BE40C1B0E59DC009CA47C /* WEInitialize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A438A0A1B131F5500EEB76C /* WE.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A9BE40F1B0E5BB8009CA47C /* WE.h */; };
+		9A438A0B1B131F5500EEB76C /* WEComputerVision.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A9BE4121B0E5F6C009CA47C /* WEComputerVision.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A438A0C1B131F5500EEB76C /* WEService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A9BE4151B0E640D009CA47C /* WEService.h */; };
+		9A5C5BAA1B0BB7F1001E078C /* libWideEyesSDKiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5C5B9E1B0BB7F1001E078C /* libWideEyesSDKiOS.a */; };
+		9A5C5BC51B0BB9FB001E078C /* WideEyesSDKiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5C5BC41B0BB9FB001E078C /* WideEyesSDKiOSTests.m */; };
+		9A747A101B2740D600B0FD1B /* WEImageData.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A747A0E1B2740D600B0FD1B /* WEImageData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A747A111B2740D600B0FD1B /* WEImageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A747A0F1B2740D600B0FD1B /* WEImageData.m */; };
+		9A747A141B27417000B0FD1B /* WEImageDataStandaridized.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A747A121B27417000B0FD1B /* WEImageDataStandaridized.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A747A151B27417000B0FD1B /* WEImageDataStandaridized.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A747A131B27417000B0FD1B /* WEImageDataStandaridized.m */; };
+		9A9BE40E1B0E59DC009CA47C /* WEInitialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9BE40D1B0E59DC009CA47C /* WEInitialize.m */; };
+		9A9BE4111B0E5BB8009CA47C /* WE.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9BE4101B0E5BB8009CA47C /* WE.m */; };
+		9A9BE4141B0E5F6C009CA47C /* WEComputerVision.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9BE4131B0E5F6C009CA47C /* WEComputerVision.m */; };
+		9A9BE4171B0E640D009CA47C /* WEService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9BE4161B0E640D009CA47C /* WEService.m */; };
+		9A9D39BB1B1328870002F412 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9D39BA1B1328870002F412 /* AssetsLibrary.framework */; };
+		9A9D39BE1B1328980002F412 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9D39BD1B1328980002F412 /* MobileCoreServices.framework */; };
+		9AD4F7101B16027D00D35EE2 /* WEObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AD4F70E1B16027D00D35EE2 /* WEObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AD4F7111B16027D00D35EE2 /* WEObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD4F70F1B16027D00D35EE2 /* WEObject.m */; };
+		9AD4F7121B1606DB00D35EE2 /* WEVision.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9AF5B10C1B0BCC0500AC3AA4 /* WEVision.h */; };
+		9AD4F7131B1606E000D35EE2 /* WEInitialize.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9A9BE40C1B0E59DC009CA47C /* WEInitialize.h */; };
+		9AD4F7141B1606E600D35EE2 /* WEObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9AD4F70E1B16027D00D35EE2 /* WEObject.h */; };
+		9AD4F7151B1606EB00D35EE2 /* WEComputerVision.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9A9BE4121B0E5F6C009CA47C /* WEComputerVision.h */; };
+		9AD4F7161B1606EF00D35EE2 /* WEResult.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9AF5B10F1B0BD61C00AC3AA4 /* WEResult.h */; };
+		9AF262021B20B91F00D92C05 /* shoes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AF262011B20B91F00D92C05 /* shoes.jpg */; };
+		9AF262051B20C6AB00D92C05 /* WEMockProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF262031B20C6AB00D92C05 /* WEMockProvider.h */; };
+		9AF262061B20C6AB00D92C05 /* WEMockProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF262041B20C6AB00D92C05 /* WEMockProvider.m */; };
+		9AF262071B20C6AB00D92C05 /* WEMockProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF262041B20C6AB00D92C05 /* WEMockProvider.m */; };
+		9AF262121B20D27600D92C05 /* WEService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9BE4161B0E640D009CA47C /* WEService.m */; };
+		9AF5B10E1B0BCC0500AC3AA4 /* WEVision.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5B10D1B0BCC0500AC3AA4 /* WEVision.m */; };
+		9AF5B1111B0BD61C00AC3AA4 /* WEResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5B1101B0BD61C00AC3AA4 /* WEResult.m */; };
+		9AF83D8C1B16355700FE2154 /* WE_AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF83D791B16355700FE2154 /* WE_AFHTTPRequestOperation.h */; };
+		9AF83D8D1B16355700FE2154 /* WE_AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF83D7A1B16355700FE2154 /* WE_AFHTTPRequestOperation.m */; };
+		9AF83D8E1B16355700FE2154 /* WE_AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF83D7B1B16355700FE2154 /* WE_AFHTTPRequestOperationManager.h */; };
+		9AF83D8F1B16355700FE2154 /* WE_AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF83D7C1B16355700FE2154 /* WE_AFHTTPRequestOperationManager.m */; };
+		9AF83D901B16355700FE2154 /* WE_AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF83D7D1B16355700FE2154 /* WE_AFHTTPSessionManager.h */; };
+		9AF83D911B16355700FE2154 /* WE_AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF83D7E1B16355700FE2154 /* WE_AFHTTPSessionManager.m */; };
+		9AF83D921B16355700FE2154 /* WE_AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF83D7F1B16355700FE2154 /* WE_AFNetworking.h */; };
+		9AF83D931B16355700FE2154 /* WE_AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF83D801B16355700FE2154 /* WE_AFNetworkReachabilityManager.h */; };
+		9AF83D941B16355700FE2154 /* WE_AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF83D811B16355700FE2154 /* WE_AFNetworkReachabilityManager.m */; };
+		9AF83D951B16355700FE2154 /* WE_AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF83D821B16355700FE2154 /* WE_AFSecurityPolicy.h */; };
+		9AF83D961B16355700FE2154 /* WE_AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF83D831B16355700FE2154 /* WE_AFSecurityPolicy.m */; };
+		9AF83D971B16355700FE2154 /* WE_AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF83D841B16355700FE2154 /* WE_AFURLConnectionOperation.h */; };
+		9AF83D981B16355700FE2154 /* WE_AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF83D851B16355700FE2154 /* WE_AFURLConnectionOperation.m */; };
+		9AF83D991B16355700FE2154 /* WE_AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF83D861B16355700FE2154 /* WE_AFURLRequestSerialization.h */; };
+		9AF83D9A1B16355700FE2154 /* WE_AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF83D871B16355700FE2154 /* WE_AFURLRequestSerialization.m */; };
+		9AF83D9B1B16355700FE2154 /* WE_AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF83D881B16355700FE2154 /* WE_AFURLResponseSerialization.h */; };
+		9AF83D9C1B16355700FE2154 /* WE_AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF83D891B16355700FE2154 /* WE_AFURLResponseSerialization.m */; };
+		9AF83D9D1B16355700FE2154 /* WE_AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF83D8A1B16355700FE2154 /* WE_AFURLSessionManager.h */; };
+		9AF83D9E1B16355700FE2154 /* WE_AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF83D8B1B16355700FE2154 /* WE_AFURLSessionManager.m */; };
+		9AF83D9F1B16386600FE2154 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9D39B01B1327020002F412 /* SystemConfiguration.framework */; };
+		9AF83DA01B1638C000FE2154 /* WE_AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF83D7A1B16355700FE2154 /* WE_AFHTTPRequestOperation.m */; };
+		9AF83DA11B1638C300FE2154 /* WE_AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF83D7C1B16355700FE2154 /* WE_AFHTTPRequestOperationManager.m */; };
+		9AF83DA21B1638C500FE2154 /* WE_AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF83D7E1B16355700FE2154 /* WE_AFHTTPSessionManager.m */; };
+		9AF83DA31B1638C800FE2154 /* WE_AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF83D811B16355700FE2154 /* WE_AFNetworkReachabilityManager.m */; };
+		9AF83DA41B1638CB00FE2154 /* WE_AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF83D831B16355700FE2154 /* WE_AFSecurityPolicy.m */; };
+		9AF83DA51B1638CD00FE2154 /* WE_AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF83D851B16355700FE2154 /* WE_AFURLConnectionOperation.m */; };
+		9AF83DA61B1638CF00FE2154 /* WE_AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF83D871B16355700FE2154 /* WE_AFURLRequestSerialization.m */; };
+		9AF83DA71B1638D100FE2154 /* WE_AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF83D891B16355700FE2154 /* WE_AFURLResponseSerialization.m */; };
+		9AF83DA81B1638D400FE2154 /* WE_AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF83D8B1B16355700FE2154 /* WE_AFURLSessionManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A438A111B131FE800EEB76C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A5C5B961B0BB7F1001E078C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A5C5B9D1B0BB7F1001E078C;
+			remoteInfo = WideEyesSDKiOS;
+		};
+		9A5C5BAB1B0BB7F1001E078C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A5C5B961B0BB7F1001E078C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A5C5B9D1B0BB7F1001E078C;
+			remoteInfo = WideEyesSDKiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9A5C5B9C1B0BB7F1001E078C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				9AD4F7121B1606DB00D35EE2 /* WEVision.h in CopyFiles */,
+				9AD4F7131B1606E000D35EE2 /* WEInitialize.h in CopyFiles */,
+				9AD4F7161B1606EF00D35EE2 /* WEResult.h in CopyFiles */,
+				9AD4F7151B1606EB00D35EE2 /* WEComputerVision.h in CopyFiles */,
+				9AD4F7141B1606E600D35EE2 /* WEObject.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9A5C5B9E1B0BB7F1001E078C /* libWideEyesSDKiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWideEyesSDKiOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A5C5BA91B0BB7F1001E078C /* WideEyesSDKiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WideEyesSDKiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A5C5BAF1B0BB7F1001E078C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A5C5BC41B0BB9FB001E078C /* WideEyesSDKiOSTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WideEyesSDKiOSTests.m; sourceTree = "<group>"; };
+		9A747A0E1B2740D600B0FD1B /* WEImageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEImageData.h; sourceTree = "<group>"; };
+		9A747A0F1B2740D600B0FD1B /* WEImageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEImageData.m; sourceTree = "<group>"; };
+		9A747A121B27417000B0FD1B /* WEImageDataStandaridized.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEImageDataStandaridized.h; sourceTree = "<group>"; };
+		9A747A131B27417000B0FD1B /* WEImageDataStandaridized.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEImageDataStandaridized.m; sourceTree = "<group>"; };
+		9A9BE40C1B0E59DC009CA47C /* WEInitialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEInitialize.h; sourceTree = "<group>"; };
+		9A9BE40D1B0E59DC009CA47C /* WEInitialize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEInitialize.m; sourceTree = "<group>"; };
+		9A9BE40F1B0E5BB8009CA47C /* WE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WE.h; sourceTree = "<group>"; };
+		9A9BE4101B0E5BB8009CA47C /* WE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WE.m; sourceTree = "<group>"; };
+		9A9BE4121B0E5F6C009CA47C /* WEComputerVision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEComputerVision.h; sourceTree = "<group>"; };
+		9A9BE4131B0E5F6C009CA47C /* WEComputerVision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEComputerVision.m; sourceTree = "<group>"; };
+		9A9BE4151B0E640D009CA47C /* WEService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEService.h; sourceTree = "<group>"; };
+		9A9BE4161B0E640D009CA47C /* WEService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEService.m; sourceTree = "<group>"; };
+		9A9D39B01B1327020002F412 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9A9D39BA1B1328870002F412 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		9A9D39BD1B1328980002F412 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9AD4F70E1B16027D00D35EE2 /* WEObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEObject.h; sourceTree = "<group>"; };
+		9AD4F70F1B16027D00D35EE2 /* WEObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEObject.m; sourceTree = "<group>"; };
+		9AF262011B20B91F00D92C05 /* shoes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoes.jpg; sourceTree = "<group>"; };
+		9AF262031B20C6AB00D92C05 /* WEMockProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEMockProvider.h; sourceTree = "<group>"; };
+		9AF262041B20C6AB00D92C05 /* WEMockProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEMockProvider.m; sourceTree = "<group>"; };
+		9AF5B10C1B0BCC0500AC3AA4 /* WEVision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEVision.h; sourceTree = "<group>"; };
+		9AF5B10D1B0BCC0500AC3AA4 /* WEVision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEVision.m; sourceTree = "<group>"; };
+		9AF5B10F1B0BD61C00AC3AA4 /* WEResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEResult.h; sourceTree = "<group>"; };
+		9AF5B1101B0BD61C00AC3AA4 /* WEResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEResult.m; sourceTree = "<group>"; };
+		9AF83D791B16355700FE2154 /* WE_AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WE_AFHTTPRequestOperation.h; path = AFNetworking/WE_AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		9AF83D7A1B16355700FE2154 /* WE_AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WE_AFHTTPRequestOperation.m; path = AFNetworking/WE_AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		9AF83D7B1B16355700FE2154 /* WE_AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WE_AFHTTPRequestOperationManager.h; path = AFNetworking/WE_AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		9AF83D7C1B16355700FE2154 /* WE_AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WE_AFHTTPRequestOperationManager.m; path = AFNetworking/WE_AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		9AF83D7D1B16355700FE2154 /* WE_AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WE_AFHTTPSessionManager.h; path = AFNetworking/WE_AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		9AF83D7E1B16355700FE2154 /* WE_AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WE_AFHTTPSessionManager.m; path = AFNetworking/WE_AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		9AF83D7F1B16355700FE2154 /* WE_AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WE_AFNetworking.h; path = AFNetworking/WE_AFNetworking.h; sourceTree = "<group>"; };
+		9AF83D801B16355700FE2154 /* WE_AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WE_AFNetworkReachabilityManager.h; path = AFNetworking/WE_AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		9AF83D811B16355700FE2154 /* WE_AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WE_AFNetworkReachabilityManager.m; path = AFNetworking/WE_AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		9AF83D821B16355700FE2154 /* WE_AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WE_AFSecurityPolicy.h; path = AFNetworking/WE_AFSecurityPolicy.h; sourceTree = "<group>"; };
+		9AF83D831B16355700FE2154 /* WE_AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WE_AFSecurityPolicy.m; path = AFNetworking/WE_AFSecurityPolicy.m; sourceTree = "<group>"; };
+		9AF83D841B16355700FE2154 /* WE_AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WE_AFURLConnectionOperation.h; path = AFNetworking/WE_AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		9AF83D851B16355700FE2154 /* WE_AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WE_AFURLConnectionOperation.m; path = AFNetworking/WE_AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		9AF83D861B16355700FE2154 /* WE_AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WE_AFURLRequestSerialization.h; path = AFNetworking/WE_AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		9AF83D871B16355700FE2154 /* WE_AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WE_AFURLRequestSerialization.m; path = AFNetworking/WE_AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		9AF83D881B16355700FE2154 /* WE_AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WE_AFURLResponseSerialization.h; path = AFNetworking/WE_AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		9AF83D891B16355700FE2154 /* WE_AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WE_AFURLResponseSerialization.m; path = AFNetworking/WE_AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		9AF83D8A1B16355700FE2154 /* WE_AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WE_AFURLSessionManager.h; path = AFNetworking/WE_AFURLSessionManager.h; sourceTree = "<group>"; };
+		9AF83D8B1B16355700FE2154 /* WE_AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WE_AFURLSessionManager.m; path = AFNetworking/WE_AFURLSessionManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A5C5B9B1B0BB7F1001E078C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF83D9F1B16386600FE2154 /* SystemConfiguration.framework in Frameworks */,
+				9A9D39BE1B1328980002F412 /* MobileCoreServices.framework in Frameworks */,
+				9A9D39BB1B1328870002F412 /* AssetsLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A5C5BA61B0BB7F1001E078C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A5C5BAA1B0BB7F1001E078C /* libWideEyesSDKiOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A43890C1B1315D200EEB76C /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				9AF83D791B16355700FE2154 /* WE_AFHTTPRequestOperation.h */,
+				9AF83D7A1B16355700FE2154 /* WE_AFHTTPRequestOperation.m */,
+				9AF83D7B1B16355700FE2154 /* WE_AFHTTPRequestOperationManager.h */,
+				9AF83D7C1B16355700FE2154 /* WE_AFHTTPRequestOperationManager.m */,
+				9AF83D7D1B16355700FE2154 /* WE_AFHTTPSessionManager.h */,
+				9AF83D7E1B16355700FE2154 /* WE_AFHTTPSessionManager.m */,
+				9AF83D7F1B16355700FE2154 /* WE_AFNetworking.h */,
+				9AF83D801B16355700FE2154 /* WE_AFNetworkReachabilityManager.h */,
+				9AF83D811B16355700FE2154 /* WE_AFNetworkReachabilityManager.m */,
+				9AF83D821B16355700FE2154 /* WE_AFSecurityPolicy.h */,
+				9AF83D831B16355700FE2154 /* WE_AFSecurityPolicy.m */,
+				9AF83D841B16355700FE2154 /* WE_AFURLConnectionOperation.h */,
+				9AF83D851B16355700FE2154 /* WE_AFURLConnectionOperation.m */,
+				9AF83D861B16355700FE2154 /* WE_AFURLRequestSerialization.h */,
+				9AF83D871B16355700FE2154 /* WE_AFURLRequestSerialization.m */,
+				9AF83D881B16355700FE2154 /* WE_AFURLResponseSerialization.h */,
+				9AF83D891B16355700FE2154 /* WE_AFURLResponseSerialization.m */,
+				9AF83D8A1B16355700FE2154 /* WE_AFURLSessionManager.h */,
+				9AF83D8B1B16355700FE2154 /* WE_AFURLSessionManager.m */,
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
+		9A5C5B951B0BB7F1001E078C = {
+			isa = PBXGroup;
+			children = (
+				9A9D39BD1B1328980002F412 /* MobileCoreServices.framework */,
+				9A9D39BA1B1328870002F412 /* AssetsLibrary.framework */,
+				9A9D39B01B1327020002F412 /* SystemConfiguration.framework */,
+				9A5C5BA01B0BB7F1001E078C /* WideEyesSDKiOS */,
+				9A5C5BAD1B0BB7F1001E078C /* WideEyesSDKiOSTests */,
+				9A5C5B9F1B0BB7F1001E078C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A5C5B9F1B0BB7F1001E078C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A5C5B9E1B0BB7F1001E078C /* libWideEyesSDKiOS.a */,
+				9A5C5BA91B0BB7F1001E078C /* WideEyesSDKiOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A5C5BA01B0BB7F1001E078C /* WideEyesSDKiOS */ = {
+			isa = PBXGroup;
+			children = (
+				9A43890C1B1315D200EEB76C /* AFNetworking */,
+				9AF5B10C1B0BCC0500AC3AA4 /* WEVision.h */,
+				9AF5B10D1B0BCC0500AC3AA4 /* WEVision.m */,
+				9A747A0E1B2740D600B0FD1B /* WEImageData.h */,
+				9A747A0F1B2740D600B0FD1B /* WEImageData.m */,
+				9A747A121B27417000B0FD1B /* WEImageDataStandaridized.h */,
+				9A747A131B27417000B0FD1B /* WEImageDataStandaridized.m */,
+				9AF5B10F1B0BD61C00AC3AA4 /* WEResult.h */,
+				9AF5B1101B0BD61C00AC3AA4 /* WEResult.m */,
+				9A9BE40C1B0E59DC009CA47C /* WEInitialize.h */,
+				9A9BE40D1B0E59DC009CA47C /* WEInitialize.m */,
+				9A9BE40F1B0E5BB8009CA47C /* WE.h */,
+				9A9BE4101B0E5BB8009CA47C /* WE.m */,
+				9A9BE4121B0E5F6C009CA47C /* WEComputerVision.h */,
+				9A9BE4131B0E5F6C009CA47C /* WEComputerVision.m */,
+				9A9BE4151B0E640D009CA47C /* WEService.h */,
+				9A9BE4161B0E640D009CA47C /* WEService.m */,
+				9AF262031B20C6AB00D92C05 /* WEMockProvider.h */,
+				9AF262041B20C6AB00D92C05 /* WEMockProvider.m */,
+				9AD4F70E1B16027D00D35EE2 /* WEObject.h */,
+				9AD4F70F1B16027D00D35EE2 /* WEObject.m */,
+				9AF262011B20B91F00D92C05 /* shoes.jpg */,
+			);
+			path = WideEyesSDKiOS;
+			sourceTree = "<group>";
+		};
+		9A5C5BAD1B0BB7F1001E078C /* WideEyesSDKiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A5C5BAE1B0BB7F1001E078C /* Supporting Files */,
+				9A5C5BC41B0BB9FB001E078C /* WideEyesSDKiOSTests.m */,
+			);
+			path = WideEyesSDKiOSTests;
+			sourceTree = "<group>";
+		};
+		9A5C5BAE1B0BB7F1001E078C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A5C5BAF1B0BB7F1001E078C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9A4389FB1B131F3A00EEB76C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A438A061B131F5500EEB76C /* WEVision.h in Headers */,
+				9AF83D8E1B16355700FE2154 /* WE_AFHTTPRequestOperationManager.h in Headers */,
+				9AF83D901B16355700FE2154 /* WE_AFHTTPSessionManager.h in Headers */,
+				9A747A141B27417000B0FD1B /* WEImageDataStandaridized.h in Headers */,
+				9A747A101B2740D600B0FD1B /* WEImageData.h in Headers */,
+				9A438A071B131F5500EEB76C /* WEResult.h in Headers */,
+				9AF83D9D1B16355700FE2154 /* WE_AFURLSessionManager.h in Headers */,
+				9AF83D921B16355700FE2154 /* WE_AFNetworking.h in Headers */,
+				9AF83D991B16355700FE2154 /* WE_AFURLRequestSerialization.h in Headers */,
+				9A438A091B131F5500EEB76C /* WEInitialize.h in Headers */,
+				9AF83D9B1B16355700FE2154 /* WE_AFURLResponseSerialization.h in Headers */,
+				9A438A0B1B131F5500EEB76C /* WEComputerVision.h in Headers */,
+				9AD4F7101B16027D00D35EE2 /* WEObject.h in Headers */,
+				9AF83D8C1B16355700FE2154 /* WE_AFHTTPRequestOperation.h in Headers */,
+				9AF83D931B16355700FE2154 /* WE_AFNetworkReachabilityManager.h in Headers */,
+				9AF262051B20C6AB00D92C05 /* WEMockProvider.h in Headers */,
+				9AF83D951B16355700FE2154 /* WE_AFSecurityPolicy.h in Headers */,
+				9AF83D971B16355700FE2154 /* WE_AFURLConnectionOperation.h in Headers */,
+				9A438A0A1B131F5500EEB76C /* WE.h in Headers */,
+				9A438A0C1B131F5500EEB76C /* WEService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9A5C5B9D1B0BB7F1001E078C /* WideEyesSDKiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A5C5BB21B0BB7F1001E078C /* Build configuration list for PBXNativeTarget "WideEyesSDKiOS" */;
+			buildPhases = (
+				9A5C5B9A1B0BB7F1001E078C /* Sources */,
+				9A5C5B9B1B0BB7F1001E078C /* Frameworks */,
+				9A5C5B9C1B0BB7F1001E078C /* CopyFiles */,
+				9A5C5BB81B0BB8F0001E078C /* Build framework */,
+				9A4389FB1B131F3A00EEB76C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WideEyesSDKiOS;
+			productName = WideEyesSDKiOS;
+			productReference = 9A5C5B9E1B0BB7F1001E078C /* libWideEyesSDKiOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9A5C5BA81B0BB7F1001E078C /* WideEyesSDKiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A5C5BB51B0BB7F1001E078C /* Build configuration list for PBXNativeTarget "WideEyesSDKiOSTests" */;
+			buildPhases = (
+				9A5C5BA51B0BB7F1001E078C /* Sources */,
+				9A5C5BA61B0BB7F1001E078C /* Frameworks */,
+				9A5C5BA71B0BB7F1001E078C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A5C5BAC1B0BB7F1001E078C /* PBXTargetDependency */,
+			);
+			name = WideEyesSDKiOSTests;
+			productName = WideEyesSDKiOSTests;
+			productReference = 9A5C5BA91B0BB7F1001E078C /* WideEyesSDKiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A5C5B961B0BB7F1001E078C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = WideEyes;
+				TargetAttributes = {
+					9A438A0D1B131FDC00EEB76C = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					9A5C5B9D1B0BB7F1001E078C = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					9A5C5BA81B0BB7F1001E078C = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 9A5C5B991B0BB7F1001E078C /* Build configuration list for PBXProject "WideEyesSDKiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9A5C5B951B0BB7F1001E078C;
+			productRefGroup = 9A5C5B9F1B0BB7F1001E078C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A5C5B9D1B0BB7F1001E078C /* WideEyesSDKiOS */,
+				9A5C5BA81B0BB7F1001E078C /* WideEyesSDKiOSTests */,
+				9A438A0D1B131FDC00EEB76C /* Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A5C5BA71B0BB7F1001E078C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF262021B20B91F00D92C05 /* shoes.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A438A131B131FFB00EEB76C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=${PROJECT_NAME}\nRW_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n# 1 - Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nRW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 2 - Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nRW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 3 - Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\nRW_OTHER_PLATFORM=iphonesimulator\nelse\nRW_OTHER_PLATFORM=iphoneos\nfi\n\n# 4 - Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\nRW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Ensure that the framework is present in both platform's build directories\ncp -a \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Copy the framework to the user's desktop\nditto \"${RW_FRAMEWORK_LOCATION}\" \"${HOME}/Desktop/${RW_FRAMEWORK_NAME}.framework\"\n";
+		};
+		9A5C5BB81B0BB8F0001E078C /* Build framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the path to the real Headers die\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOCN}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \\\n\"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A5C5B9A1B0BB7F1001E078C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A747A151B27417000B0FD1B /* WEImageDataStandaridized.m in Sources */,
+				9A9BE4171B0E640D009CA47C /* WEService.m in Sources */,
+				9AF83D941B16355700FE2154 /* WE_AFNetworkReachabilityManager.m in Sources */,
+				9AF83D981B16355700FE2154 /* WE_AFURLConnectionOperation.m in Sources */,
+				9A747A111B2740D600B0FD1B /* WEImageData.m in Sources */,
+				9AF262061B20C6AB00D92C05 /* WEMockProvider.m in Sources */,
+				9AF83D9A1B16355700FE2154 /* WE_AFURLRequestSerialization.m in Sources */,
+				9A9BE4141B0E5F6C009CA47C /* WEComputerVision.m in Sources */,
+				9AF83D8D1B16355700FE2154 /* WE_AFHTTPRequestOperation.m in Sources */,
+				9AF5B1111B0BD61C00AC3AA4 /* WEResult.m in Sources */,
+				9AF83D9E1B16355700FE2154 /* WE_AFURLSessionManager.m in Sources */,
+				9A9BE4111B0E5BB8009CA47C /* WE.m in Sources */,
+				9AF83D961B16355700FE2154 /* WE_AFSecurityPolicy.m in Sources */,
+				9AD4F7111B16027D00D35EE2 /* WEObject.m in Sources */,
+				9A9BE40E1B0E59DC009CA47C /* WEInitialize.m in Sources */,
+				9AF83D911B16355700FE2154 /* WE_AFHTTPSessionManager.m in Sources */,
+				9AF83D9C1B16355700FE2154 /* WE_AFURLResponseSerialization.m in Sources */,
+				9AF5B10E1B0BCC0500AC3AA4 /* WEVision.m in Sources */,
+				9AF83D8F1B16355700FE2154 /* WE_AFHTTPRequestOperationManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A5C5BA51B0BB7F1001E078C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF83DA41B1638CB00FE2154 /* WE_AFSecurityPolicy.m in Sources */,
+				9AF83DA51B1638CD00FE2154 /* WE_AFURLConnectionOperation.m in Sources */,
+				9AF83DA01B1638C000FE2154 /* WE_AFHTTPRequestOperation.m in Sources */,
+				9AF262121B20D27600D92C05 /* WEService.m in Sources */,
+				9AF262071B20C6AB00D92C05 /* WEMockProvider.m in Sources */,
+				9AF83DA71B1638D100FE2154 /* WE_AFURLResponseSerialization.m in Sources */,
+				9AF83DA31B1638C800FE2154 /* WE_AFNetworkReachabilityManager.m in Sources */,
+				9AF83DA81B1638D400FE2154 /* WE_AFURLSessionManager.m in Sources */,
+				9AF83DA21B1638C500FE2154 /* WE_AFHTTPSessionManager.m in Sources */,
+				9AF83DA61B1638CF00FE2154 /* WE_AFURLRequestSerialization.m in Sources */,
+				9A5C5BC51B0BB9FB001E078C /* WideEyesSDKiOSTests.m in Sources */,
+				9AF83DA11B1638C300FE2154 /* WE_AFHTTPRequestOperationManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A438A121B131FE800EEB76C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A5C5B9D1B0BB7F1001E078C /* WideEyesSDKiOS */;
+			targetProxy = 9A438A111B131FE800EEB76C /* PBXContainerItemProxy */;
+		};
+		9A5C5BAC1B0BB7F1001E078C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A5C5B9D1B0BB7F1001E078C /* WideEyesSDKiOS */;
+			targetProxy = 9A5C5BAB1B0BB7F1001E078C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9A438A0F1B131FDC00EEB76C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A438A101B131FDC00EEB76C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A5C5BB01B0BB7F1001E078C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A5C5BB11B0BB7F1001E078C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A5C5BB31B0BB7F1001E078C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Debug;
+		};
+		9A5C5BB41B0BB7F1001E078C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Release;
+		};
+		9A5C5BB61B0BB7F1001E078C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"UNIT_TESTING=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WideEyesSDKiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A5C5BB71B0BB7F1001E078C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WideEyesSDKiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A438A0E1B131FDC00EEB76C /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A438A0F1B131FDC00EEB76C /* Debug */,
+				9A438A101B131FDC00EEB76C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A5C5B991B0BB7F1001E078C /* Build configuration list for PBXProject "WideEyesSDKiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A5C5BB01B0BB7F1001E078C /* Debug */,
+				9A5C5BB11B0BB7F1001E078C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A5C5BB21B0BB7F1001E078C /* Build configuration list for PBXNativeTarget "WideEyesSDKiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A5C5BB31B0BB7F1001E078C /* Debug */,
+				9A5C5BB41B0BB7F1001E078C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A5C5BB51B0BB7F1001E078C /* Build configuration list for PBXNativeTarget "WideEyesSDKiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A5C5BB61B0BB7F1001E078C /* Debug */,
+				9A5C5BB71B0BB7F1001E078C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A5C5B961B0BB7F1001E078C /* Project object */;
+}
