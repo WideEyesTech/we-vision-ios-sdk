@@ -81,25 +81,25 @@ In the method application:didFinishLaunchingWithOptions set your apikey that you
 
 }];
 ```
-##### Process an image after drawing the contourn arround it
+##### Process an image after drawing the contour around it
 
 ```Objective-C
-[WEComputerVision generateImage:[UIImage imageNamed:@""]
-                  contourPoints:@[@[@40,@220],@[@150,@220],@[@150,@300],@[@295,@300],@[@40,@385],@[@295,@385]]
-                         margin:@0
-            withCompletionBlock:^(UIImage *image, NSArray *contour) {
+WEImageData *imageData = [[WEImageData alloc]init]; //Create a WEImageData object
 
-}];
+[imageData setImage:IMAGE]; // Add image
+[imageData addXPoint:XPOINT andYPoint:YPOINTS]; // Add all the points of the contour
+
+WEImageDataStandaridized *data = [WEComputerVision processImageData:imageData margin:MARGIN]; // Process the image
 ```
 
-##### Get search produts by image using a pre processed image
+##### Get search produts by image using the WEImageDataStandaridized pre processed image
+
 
 ```Objective-C
-[WEVision searchByImageWithGender:WEVisionGender
-                         category:@""
-                      subcategory:@""
-                            image:image     // image from the preprocessing method
-                          contour:contour   // contour from the preprocessing method
+[WEVision searchByImageWithGender:WEVisionGenderFemale
+                         category:@"shoes"
+                      subcategory:@"boots_booties"
+           imageDataStandaridized:data  // WEImageDataStandaridized from the preprocessing function
                           success:^(WEResult *result) {
 
 } failure:^(NSError *error) {
