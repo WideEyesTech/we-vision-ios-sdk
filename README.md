@@ -89,17 +89,17 @@ WEImageData *imageData = [[WEImageData alloc]init]; //Create a WEImageData objec
 [imageData setImage:IMAGE]; // Add image
 [imageData addXPoint:XPOINT andYPoint:YPOINTS]; // Add all the points of the contour
 
-WEImageDataStandaridized *data = [WEComputerVision processImageData:imageData margin:MARGIN]; // Process the image
+WEImageDataStandardized *data = [WEComputerVision processImageData:imageData margin:MARGIN]; // Process the image
 ```
 
-##### Get search produts by image using the WEImageDataStandaridized pre processed image
+##### Get search produts by image using the WEImageDataStandardized pre processed image
 
 
 ```Objective-C
-[WEVision searchByImageWithGender:WEVisionGenderFemale
-                         category:@"shoes"
-                      subcategory:@"boots_booties"
-           imageDataStandaridized:data  // WEImageDataStandaridized from the preprocessing function
+[WEVision searchByImageWithGender:WEVisionGender
+                         category:@""
+                      subcategory:@""
+            imageDataStandardized:WEIMAGEDATASTANDARIZED // WEImageDataStandardized from the preprocessing function
                           success:^(WEResult *result) {
 
 } failure:^(NSError *error) {
