@@ -11,7 +11,7 @@
 #import "WEVision.h"
 #import "WEInitialize.h"
 #import "WEComputerVision.h"
-#import "WEImageDataStandaridized.h"
+#import "WEImageDataStandardized.h"
 #import "WEImageData.h"
 
 @interface WideEyesSDKiOSTests : XCTestCase
@@ -92,7 +92,7 @@
     [imageData addXPoint:@40 andYPoint:@385];
     [imageData addXPoint:@295 andYPoint:@385];
     
-    WEImageDataStandaridized *data = [WEComputerVision processImageData:imageData margin:@0];
+    WEImageDataStandardized *data = [WEComputerVision processImageData:imageData margin:@0];
 
      NSArray *returnContour =  @[@[@0,@0],@[@172,@0],@[@172,@125],@[@398,@125],@[@0,@258],@[@398,@258]];
     if (![data.contourPoints isEqualToArray:returnContour]) {
@@ -111,7 +111,7 @@
     [imageData addXPoint:@40 andYPoint:@385];
     [imageData addXPoint:@295 andYPoint:@385];
     
-    WEImageDataStandaridized *data = [WEComputerVision processImageData:imageData margin:@0];
+    WEImageDataStandardized *data = [WEComputerVision processImageData:imageData margin:@0];
     
     XCTAssert(data.image.size.width == 400.0f || data.image.size.height == 400.0f);
     
@@ -129,12 +129,12 @@
     [imageData addXPoint:@295 andYPoint:@385];
 
     
-    WEImageDataStandaridized *data = [WEComputerVision processImageData:imageData margin:@0];
+    WEImageDataStandardized *data = [WEComputerVision processImageData:imageData margin:@0];
     
     [WEVision searchByImageWithGender:WEVisionGenderFemale
                              category:@"shoes"
                           subcategory:@"boots_booties"
-               imageDataStandaridized:data
+                imageDataStandardized:data
                               success:^(WEResult *result) {
         [completionExpectation fulfill];
         XCTAssert(result.resultBoth > 0 && result.resultColor > 0 && result.resultShape > 0);

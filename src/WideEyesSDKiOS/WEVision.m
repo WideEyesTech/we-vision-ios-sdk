@@ -91,7 +91,7 @@
 + (void)searchByImageWithGender:(WEVisionGender)gender
                        category:(NSString *)category
                     subcategory:(NSString *)subcategory
-         imageDataStandaridized:(WEImageDataStandaridized *)imageDataStandaridized
+          imageDataStandardized:(WEImageDataStandardized *)imageDataStandardized
                         success:(void (^const)(WEResult *result))successBlock
                         failure:(void (^const)(NSError *error))errorBlock {
     
@@ -116,15 +116,15 @@
         [self throwException:@"Gender"];
     }
     
-    if ([imageDataStandaridized.contourPoints isKindOfClass:NSArray.class]) {
-        [parameters setObject:imageDataStandaridized.contourPoints forKey:@"Contour"];
+    if ([imageDataStandardized.contourPoints isKindOfClass:NSArray.class]) {
+        [parameters setObject:imageDataStandardized.contourPoints forKey:@"Contour"];
     } else {
         [self throwException:@"Contour"];
     }
     
     
-    if ([imageDataStandaridized.image isKindOfClass:UIImage.class]) {
-        NSData *dataData = UIImageJPEGRepresentation(imageDataStandaridized.image,1.0f);
+    if ([imageDataStandardized.image isKindOfClass:UIImage.class]) {
+        NSData *dataData = UIImageJPEGRepresentation(imageDataStandardized.image,1.0f);
         NSString *data =[dataData base64EncodedStringWithOptions:0];
         [parameters setObject:data forKey:@"Image"];
     } else {

@@ -10,7 +10,7 @@
 
 @implementation WEComputerVision
 
-+ (WEImageDataStandaridized *)processImageData:(WEImageData *)imageData
++ (WEImageDataStandardized *)processImageData:(WEImageData *)imageData
                                         margin:(NSNumber *)margin {
     
     if (![imageData.image isKindOfClass:UIImage.class]) {
@@ -109,7 +109,7 @@
     }
     
     
-    return [[WEImageDataStandaridized alloc]initWithContent:resizeContour andImage:resizedImage];
+    return [[WEImageDataStandardized alloc]initWithContent:resizeContour andImage:resizedImage];
 }
 
 + (void)throwException:(NSString *)parameter {

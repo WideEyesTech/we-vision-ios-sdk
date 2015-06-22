@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "WEResult.h"
-#import "WEImageDataStandaridized.h"
+#import "WEImageDataStandardized.h"
 
 typedef enum WEVisionGender : NSUInteger{
     WEVisionGenderMale,
@@ -67,7 +67,7 @@ typedef enum WEVisionGender : NSUInteger{
  @param gender The gender of the category.
  @param category The name of the category.
  @param subcategory The name of the subcategory.
- @param imageDataStandaridized The WEImageDataStandaridized object proprocessed by WEComputerVision processImage:contourPoints:margin:withCompletionBlock:
+ @param imageDataStandardized The WEImageDataStandardized object proprocessed by WEComputerVision processImage:contourPoints:margin:withCompletionBlock:
  @param successBlock The success block providing WEResult.
  @param errorBlock The error block providing error.
  
@@ -77,7 +77,7 @@ typedef enum WEVisionGender : NSUInteger{
 + (void)searchByImageWithGender:(WEVisionGender)gender
                        category:(NSString *)category
                     subcategory:(NSString *)subcategory
-         imageDataStandaridized:(WEImageDataStandaridized *)imageDataStandaridized
+          imageDataStandardized:(WEImageDataStandardized *)imageDataStandardized
                         success:(void(^const)(WEResult *result))successBlock
                         failure:(void(^const)(NSError *error))errorBlock;
 

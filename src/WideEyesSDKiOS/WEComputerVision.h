@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "WEImageData.h"
-#import "WEImageDataStandaridized.h"
+#import "WEImageDataStandardized.h"
 
 @interface WEComputerVision : NSObject
 
@@ -27,6 +27,6 @@
  
  */
 
-+ (WEImageDataStandaridized *)processImageData:(WEImageData *)imageData
++ (WEImageDataStandardized *)processImageData:(WEImageData *)imageData
                                         margin:(NSNumber *)margin;
 @end
